@@ -1,0 +1,189 @@
+
+/* CODIGO CSS TRÊS DOSES DE ARTES */
+
+body {
+    background-image: url('https://img.freepik.com/vetores-gratis/vetor-de-plano-de-fundo-texturizado-de-tracado-de-pincel-acrilico_53876-85259.jpg?ga=GA1.1.561084702.1750485974&semt=ais_hybrid&w=740');
+    margin: 30px;
+    padding: 15px;      
+    font-size: 28px;
+    .linha {
+        color: #0c0c0c;
+        font-family: 'Franklin Gothic Medium', sans-serif;
+        font-weight: bold;
+            }
+    }
+
+h1{
+    color: rgb(244, 245, 237);  
+    background-color: rgb(22, 22, 22);
+    text-align: #;
+    font-size: 30px;  
+    font-weight: bold;
+    font-style: italic;
+    font-family:'Franklin Gothic Medium', sans-serif; 
+}
+
+.botoes {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  gap: 200px; /* Espaço maior entre os botões */
+  flex-wrap: wrap;
+  margin-top: 40px; /* Espaço superior, opcional */
+}
+
+.botao {
+  padding: 12px 25px;
+  background-color: #d12317;
+  color: rgb(218, 207, 207);
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-size: 25px;
+}
+
+.botao:hover {
+  background-color: #161616;
+}
+
+
+
+h2 {
+    color: #6b0505;
+    font-size: 30px;
+    margin-top: 10px;
+     text-align:  ;
+       font-family:'Franklin Gothic Medium', sans-serif; 
+    font-weight: bold;
+}
+
+h3{
+  color: #c50a32;
+  background-color: ;
+  font-size: 35px;
+    margin-top: 20px;
+     text-align: center;
+       font-family: sans-serif;
+  font-weight: bold
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+div.dadosfilme {
+ font-size: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 550px;
+    background-color: rgb(228, 219, 224);
+}
+
+
+figcaption.classicoitaliano {
+    text-align: center;
+    color: #f5f0f0;
+    font-size: 18px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+div.carteiro {
+    background-color: #080000;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 550px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+p.trechodofilme {  
+    color: #0f0f0f;
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+    
+
+figcaption.realismomagico {
+    text-align: center;
+    color: #f5f0f0;
+    font-size: 18px;
+    margin-top: 10px;
+    font-style: italic;
+}
+
+div.booktrailer {
+    background-color: #080000;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 550px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+p.nomebooktrailer {
+    color: #0f0f0f;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+div.dadoslivro {
+ font-size: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 550px;
+    background-color: rgb(228, 219, 224);
+}
+
+
+div.okcomputer {
+    background-color: #080000;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 550px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    font-size: 20px;
+}   
+
+figcaption.legendaokcomputer {
+    text-align: center;
+    color: #0c0c0c;
+    font-size: 18px;
+    margin-top: 10px;
+    font-style: italic;
+}   
+div.okcomputerinfo {
+    
+    font-size: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 550px;
+    background-color: rgb(228, 219, 224);
+}
+div.trechookcomputer {
+   
+  font-size: 25px;
+    margin: 10px;
+    max-width: px;
+
+}
+p.instrucao {
+    color: #0e0d0d;
+    background-color: #817f7f;
+    font-size: 25px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+div.contato {
+
+     font-size: 25px;
+    
+    
+}
