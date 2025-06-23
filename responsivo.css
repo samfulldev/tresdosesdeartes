@@ -1,0 +1,140 @@
+/* Reset e base responsiva */
+body {
+  background-image: url('https://img.freepik.com/vetores-gratis/vetor-de-plano-de-fundo-texturizado-de-tracado-de-pincel-acrilico_53876-85259.jpg?ga=GA1.1.561084702.1750485974&semt=ais_hybrid&w=740');
+  margin: 20px;
+  padding: 20px;
+  font-size: 20px;
+  overflow-x: hidden;
+}
+
+/* Cabeçalho principal */
+h1 {
+  color: rgb(244, 245, 237);
+  background-color: rgb(22, 22, 22);
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  font-style: italic;
+  font-family:'Franklin Gothic Medium', sans-serif;
+  padding: 15px;
+}
+
+/* Botões principais */
+.botoes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.botao {
+  padding: 12px 25px;
+  background-color: #d12317;
+  color: rgb(218, 207, 207);
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: 22px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.botao:hover {
+  background-color: #161616;
+}
+
+/* Títulos */
+h2, h3 {
+  text-align: center;
+  font-family:'Franklin Gothic Medium', sans-serif;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+h2 {
+  color: #6b0505;
+  font-size: 26px;
+}
+
+h3 {
+  color: #c50a32;
+  font-size: 24px;
+}
+
+/* Imagens e vídeos */
+img, iframe {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Blocos informativos */
+.dadosfilme, .dadoslivro, .okcomputerinfo {
+  font-size: 18px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  background-color: rgb(228, 219, 224);
+}
+
+.carteiro, .booktrailer, .okcomputer {
+  background-color: #080000;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 600px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Legendas */
+figcaption {
+  text-align: center;
+  font-size: 16px;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Outros textos */
+p, li {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+/* Parágrafo final e contatos */
+.instrucao, .nomebooktrailer, .trechodofilme {
+  text-align: center;
+  font-weight: bold;
+}
+
+.contato {
+  font-size: 20px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+  body {
+    font-size: 18px;
+    padding: 10px;
+    margin: 10px;
+  }
+
+  .botao {
+    width: 80%;
+  }
+
+  .botoes {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h1, h2, h3 {
+    font-size: 22px;
+  }
+
+  iframe {
+    aspect-ratio: 16 / 9;
+  }
+}
