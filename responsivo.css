@@ -102,14 +102,19 @@ p, li {
 }
 
 /* Parágrafo final e contatos */
-.instrucao, .nomebooktrailer, .trechodofilme {
+ .nomebooktrailer, .trechodofilme {
   text-align: center;
+  font-weight: bold;
+}
+
+.instrucao {
+  text-align: left;
   font-weight: bold;
 }
 
 .contato {
   font-size: 20px;
-  text-align: center;
+  text-align: left;
   margin: 20px 0;
 }
 
